@@ -1,4 +1,4 @@
-# Neural-Correlates-of-AI-generated-Multimodal-Hallucinations
+# EEG-Hallucination-anonymous
 
 This is the official repository for the paper "**How do Human Processes AI-generated Hallucination Contents: a Neuroimaging Study**".
 
@@ -9,20 +9,13 @@ We collected EEG data from 27 participants. Each participant viewed textual stim
 On the basis of this paradigm, we conducted averaged event-related potential (ERP) analyses.
 An ERP is like a "brain fingerprint" that presents the patterns of brain signals in different groups (i.e., hallucination vs non-hallucination).
 
-**Table 1**: The statistical significance test results for different ERP components across brain regions for Hallu vs. NoHallu words. Statistical significance at a level of * p\textless0.05, ** p\textless0.001, respectively.
+**Table 1**: The statistical significance test results for different ERP components across brain regions. We use the repeated measures ANOVA test and adopt post-hoc pair-wise comparisons with FDR correction. *  and ** indicate statistical significance at a level of p\textless0.05, p\textless0.001, respectively.
 
-| Time window   | ROI                                                                                     | RM-ANOVA test results           |
-|----------------|------------------------------------------------------------------------------------------|---------------------------------|
-| 50–120 ms      | r-temporal, parietal                                                                    | Hallu < NoHallu *               |
-| 120–280 ms     | pre-frontal, r-temporal, occipital                                                      | Hallu > NoHallu *               |
-|                | frontal, central, l-temporal                                                            | Hallu > NoHallu **              |
-| 280–550 ms     | l-temporal, occipital                                                                   | Hallu < NoHallu *               |
-|                | central, r-temporal                                                                     | Hallu < NoHallu **              |
-| 550–750 ms     | pre-frontal, frontal, l-temporal, r-temporal, occipital                                 | Hallu > NoHallu *               |
-|                | central                                                                                 | Hallu > NoHallu **              |
+<img width="620" height="202" alt="image" src="https://github.com/user-attachments/assets/a32e0a03-daa9-4cdf-94e1-a323a763872f" />
+
 
 ![ERP Waveforms](./data/fig/erp.png)
-**Figure 2**: Comparison of ERP waveforms for different stimulus word types in central brain region.
+**Figure 2**: A) Comparison of ERP waveforms elicited by different stimulus word types in the central brain region, with shaded areas indicating the 95\% confidence intervals. B) Time-resolved topographic difference maps comparing HalluCorrect with NoHallu and HalluWrong words, respectively; highlighted electrodes denote brain regions showing significant effects in the post-hoc analysis.
 
 Results reveal that multiple cognitive processes, such as semantic-thematic integration, inferential processing, memory retrieval, and cognitive loading, are engaged in hallucination recognition. 
 However, when participants failed to detect AI-generated hallucination, we did not observe characteristic neural signatures of anomaly detection. 
