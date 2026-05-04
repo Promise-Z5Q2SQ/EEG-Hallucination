@@ -1,6 +1,6 @@
-# EEG-Hallucination-anonymous
+# EEG-Hallucination
 
-This is the official repository for the paper "**How do Human Processes AI-generated Hallucination Contents: a Neuroimaging Study**".
+This is the official repository for the paper "**How do Humans Process AI-generated Hallucination Contents: a Neuroimaging Study**".
 
 ![Data Collection](./data/fig/procedure.png)
 **Figure 1**: The overall procedure of our data collection. 
